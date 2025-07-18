@@ -4,23 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <!-- логотип -->
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Contacts</a></li>
+    <header class="header">
+      <!-- logo, nav, address -->
+      <nav class="header-nav">
+        <a class="logo header-logo" href="./index.html"
+          >Web<span class="logo-name">Studio</span></a
+        >
+        <ul class="list-nav">
+          <li class="item-nav">
+            <a class="link-nav" href="./index.html">Studio</a>
+          </li>
+          <li class="item-nav"><a class="link-nav" href="/">Portfolio</a></li>
+          <li class="item-nav"><a class="link-nav" href="/">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="list-contacts">
+          <li class="item-contacts">
+            <a class="link-contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item-contacts">
+            <a class="link-contacts" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -110,6 +136,10 @@
             <p>UI Designer</p>
           </li>
         </ul>
+      </section>
+      <!-- section 4 -->
+      <section>
+        <h2>Our Portfolio</h2>
       </section>
     </main>
     <!-- footer -->

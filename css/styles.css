@@ -1,0 +1,48 @@
+/* font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+ol, ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* logo, nav, address */
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo .logo-name {
+    color: #2e2f42;
+}
+.link-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.link-nav:hover,
+.link-nav:focus,
+.link-contacts:hover,
+.link-contacts:focus {
+    color: #404bbf;
+}
+.address {
+  font-style: normal;  
+}
+.link-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
