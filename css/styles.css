@@ -3,7 +3,7 @@ font-family: "Roboto", sans-serif; */
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 ol, ul {
@@ -14,6 +14,7 @@ a {
 }
 /* logo, nav, address */
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -34,7 +35,8 @@ a {
 .link-nav:hover,
 .link-nav:focus,
 .link-contacts:hover,
-.link-contacts:focus {
+.link-contacts:focus,
+.button:hover, .button:focus {
     color: #404bbf;
 }
 .address {
@@ -46,19 +48,15 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* section 1*/
+/* section */
 .section-title {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 600px;
     background-color: #2e2f42;
 }
 .title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -70,18 +68,23 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     }
+.hero {
+    background-color: #F4F4FD
+}
 .title-benefits, .title-hero, .title-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+.title-hero, .title-portfolio {
+    background-color: #F4F4FD;
+    text-transform: capitalize
 }
 .title-benefits-name, .title-hero-name, .title-portfolio-name  {
     font-weight: 500;
@@ -101,9 +104,15 @@ a {
 .footer {
     background-color: #2e2f42;
 }
-.footer-container {
-    width: 1440px;
-    height: 312px;   
+.footer-logo-link
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .footer-logo-name, .text-footer {
     color: #f4f4fd;
