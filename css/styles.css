@@ -35,8 +35,7 @@ a {
 .link-nav:hover,
 .link-nav:focus,
 .link-contacts:hover,
-.link-contacts:focus,
-.button:hover, .button:focus {
+.link-contacts:focus {
     color: #404bbf;
 }
 .address {
@@ -71,6 +70,9 @@ a {
     border: none;
     cursor: pointer;
     }
+.button:hover,
+.button:focus {
+    color: #404bbf;   }
 .hero {
     background-color: #F4F4FD
 }
@@ -100,12 +102,15 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.text-hero{
+    background-color: #FFFFFF
+}
 /* footer, logo */
 .footer {
     background-color: #2e2f42;
 }
-.footer-logo-link
-{
+
+.footer-logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -114,6 +119,13 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer-logo-name, .text-footer {
+
+.footer-logo-name {
     color: #f4f4fd;
 }
+
+.text-footer {
+    color: var(--cloud);
+    /* або заміни на #f4f4fd, якщо змінна не створена */
+    line-height: 1.5;
+    letter-spacing: 0.02em; }
