@@ -106,6 +106,9 @@ a {
     background-color: #FFFFFF
 }
 /* footer, logo */
+:root {
+    --cloud: #f4f4fd;
+}
 .footer {
     background-color: #2e2f42;
 }
@@ -126,6 +129,5 @@ a {
 
 .text-footer {
     color: var(--cloud);
-    /* або заміни на #f4f4fd, якщо змінна не створена */
     line-height: 1.5;
     letter-spacing: 0.02em; }
