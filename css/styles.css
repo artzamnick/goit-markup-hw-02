@@ -46,3 +46,54 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* section 1*/
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 600px;
+    background-color: #2e2f42;
+}
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.button {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+.title-benefits, .title-hero, .title-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.title-benefits-name, .title-hero-name, .title-portfolio-name  {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text-benefits, .text-hero, .text-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
