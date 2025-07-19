@@ -49,7 +49,6 @@ a {
 }
 /* section */
 .section-title {
-    justify-content: center;
     background-color: #2e2f42;
 }
 .title {
@@ -72,9 +71,10 @@ a {
     }
 .button:hover,
 .button:focus {
-    color: #404bbf;   }
+    background-color: #404bbf;   
+}
 .hero {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .title-benefits, .title-hero, .title-portfolio {
     font-weight: 700;
@@ -86,7 +86,7 @@ a {
 }
 .title-hero, .title-portfolio {
     background-color: #F4F4FD;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 .title-benefits-name, .title-hero-name, .title-portfolio-name  {
     font-weight: 500;
@@ -102,8 +102,8 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.text-hero{
-    background-color: #FFFFFF
+.item-hero {
+    background-color: #FFFFFF;
 }
 /* footer, logo */
 :root {
